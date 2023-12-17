@@ -22,3 +22,13 @@ ____
 Google Search String: [selenium](https://www.google.com/search?q=selenium&rlz=1C1YTUH_enIE1084IE1084&oq=selenium&gs_lcrp=EgZjaHJvbWUyEQgAEEUYORhDGLEDGIAEGIoFMgwIARAAGEMYgAQYigUyDAgCEAAYQxiABBiKBTIMCAMQABhDGIAEGIoFMgwIBBAAGEMYgAQYigUyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgyNDA2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8)
 
 [selenium](https://www.selenium.dev/)
+
+____
+
+Install | python | selenium
+
+```bash
+pip install selenium
+```
+
+[PyPI](https://pypi.org/project/selenium/)
