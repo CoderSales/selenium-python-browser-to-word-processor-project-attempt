@@ -19,3 +19,7 @@ ____
 ____
 
 ["first step ... get pip working"](https://youtu.be/Xjv1sY630Uc?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ&t=114)
+
+____
+
+pre: [open cmd | type: | pip](https://youtu.be/Xjv1sY630Uc?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ&t=158)
