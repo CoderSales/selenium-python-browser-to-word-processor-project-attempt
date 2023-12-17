@@ -70,3 +70,16 @@ File name: .venv.sublime.build
 
 Save as type: JSON
 
+____
+
+to run:
+
+in Sublime Text Editor:
+
+Tools > Build System
+
+.venv
+
+should be there
+
+if build file saved correctly
