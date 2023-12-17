@@ -1,7 +1,7 @@
-# selenium-python-browser-to-Word-processor-project-attempt
+# selenium-python-browser-to-word-processor-project-attempt
 
 ## description
-selenium-python-browser-to-Word-processor-project-attempt
+selenium-python-browser-to-word-processor-project-attempt
 
 ## content
 
