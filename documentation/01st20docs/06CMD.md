@@ -1,0 +1,3 @@
+# CMD
+
+Google Search String: [windows cmd basic commands list contents](https://www.google.com/search?q=windows+cmd+basic+commands+list+contents&sca_esv=591697910&rlz=1C1YTUH_enIE1084IE1084&ei=LT1_ZaWGD_PPhbIP3oCksAQ&ved=0ahUKEwjl0O6ZjJeDAxXzZ0EAHV4ACUYQ4dUDCBA&uact=5&oq=windows+cmd+basic+commands+list+contents&gs_lp=Egxnd3Mtd2l6LXNlcnAiKHdpbmRvd3MgY21kIGJhc2ljIGNvbW1hbmRzIGxpc3QgY29udGVudHMyBhAAGBYYHjILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgNIsxlQsglY0xhwAXgBkAEAmAFaoAH0B6oBAjE0uAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICBRAhGKABwgIFECEYnwXCAgcQIRigARgK4gMEGAAgQYgGAZAGCA&sclient=gws-wiz-serp)
