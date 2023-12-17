@@ -11,3 +11,7 @@ Selenium module
 "Then install"
 
 "Chromium Web Drive"
+
+____
+
+["will talk more when ... get to it"](https://youtu.be/Xjv1sY630Uc?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ&t=112)
