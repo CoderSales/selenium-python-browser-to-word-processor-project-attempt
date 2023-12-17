@@ -40,4 +40,9 @@ ____
 
 ["make sure this works"](https://youtu.be/Xjv1sY630Uc?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ&t=231)
 
+```python
+import selenium
+```
+
 ____
+
