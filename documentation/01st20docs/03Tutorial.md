@@ -5,3 +5,5 @@
 [Setup](https://youtu.be/Xjv1sY630Uc?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ&t=80)
 
 - install selenium          
+
+[sublime](https://youtu.be/Xjv1sY630Uc?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ&t=87)
