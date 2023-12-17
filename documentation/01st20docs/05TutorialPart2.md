@@ -35,3 +35,9 @@ pre:[virtual environment](https://youtu.be/Xjv1sY630Uc?list=PLzMcBGfZo4-n40rB1Xa
 ____
 
 ["selenium installed" | "now ... time to get the web driver"](https://youtu.be/Xjv1sY630Uc?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ&t=227)
+
+____
+
+["make sure this works"](https://youtu.be/Xjv1sY630Uc?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ&t=231)
+
+____
