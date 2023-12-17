@@ -10,4 +10,14 @@ ____
 Retrieve the list of commands. Type help and press ↵ Enter. A list of all the available commands will be displayed. The listed is sorted alphabetically.
 ```
 
+```cmd
+help
+```
+
+returns many commands including:
+
+```cmd
+DIR            Displays a list of files and subdirectories in a directory.
+```
+
 ____
