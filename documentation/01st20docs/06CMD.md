@@ -5,3 +5,9 @@ Google Search String: [windows cmd basic commands list contents](https://www.goo
 ____
 
 [How to Find All Commands of CMD in Your Computer | wikihow](https://www.wikihow.com/Find-All-Commands-of-CMD-in-Your-Computer#:~:text=Type%20help%20and%20press%20%E2%86%B5,find%20the%20command%20you%20want.)
+
+```text
+Retrieve the list of commands. Type help and press ↵ Enter. A list of all the available commands will be displayed. The listed is sorted alphabetically.
+```
+
+____
