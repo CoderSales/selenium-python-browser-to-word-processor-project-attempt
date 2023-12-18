@@ -1,0 +1,4 @@
+import httpx
+r = httpx.get('https://www.example.org/')
+r
+print(r)
