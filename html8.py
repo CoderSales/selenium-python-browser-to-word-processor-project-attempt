@@ -151,7 +151,14 @@ for i in list8:
     # for j in prop_list:
     #     if i == j:
 # print(list9)
-
 unique_items_list9=set(list9)
-
-print(unique_items_list9)
+# print(unique_items_list9)
+list10=[]
+for i in unique_items_list9:
+    if 'bse' not in i:
+        list10.append(i)
+print(list10)
+# unique_items_list10=set(list10)
+# print(unique_items_list10)
+# reduction=len(unique_items_list9)-len(unique_items_list10)
+# print(reduction)
