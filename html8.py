@@ -27,7 +27,7 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
                     # print(tokens)
                 # print(i5)
                 list1.append(i5)
-                input("coninue?")
+                # input("coninue?")
             # tagged = nltk.pos_tag(tokens) # new
             # for index3, x in enumerate(tagged):
             #     [one_tag, tag_type]=x
