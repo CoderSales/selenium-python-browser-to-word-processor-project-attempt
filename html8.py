@@ -21,13 +21,18 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
         print(inew)
         tokens = nltk.word_tokenize(inew) # https://www.nltk.org/
         if(tokens!=[]):
-            print(tokens)
-            input("coninue?")
-        # tagged = nltk.pos_tag(tokens) # new
-        # for index3, x in enumerate(tagged):
-        #     [one_tag, tag_type]=x
-        #     if tag_type=='NN':
-        #         print(one_tag)
+            for i5 in tokens:
+                if( re.search("osana",i5) ):
+                    translation_table2={re.sub(r'[A-Za-z]'",",tokens):None}
+                    # print(tokens)
+                print(i5)
+                
+                input("coninue?")
+            # tagged = nltk.pos_tag(tokens) # new
+            # for index3, x in enumerate(tagged):
+            #     [one_tag, tag_type]=x
+            #     if tag_type=='NN':
+            #         print(one_tag)
 
 
 
