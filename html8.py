@@ -45,7 +45,8 @@ for index,i in enumerate(list1):
 
     # TODO: (2): Add translation_table3
     if ( re.search("^''", i) ):
+        print(i) # ''
         translation_table3={re.sub(r'[A-Za-z]',",",list1[index]): None}
         inew=i.translate(translation_table3)
-    list2.append(inew)
-print(list2)
+    # list2.append(inew)
+# print(list2)
