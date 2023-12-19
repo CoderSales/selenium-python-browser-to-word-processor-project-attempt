@@ -33,3 +33,6 @@ print(list1)
 
 # TODO: Work on list1:
 
+
+for i in list1:
+    print(i)
