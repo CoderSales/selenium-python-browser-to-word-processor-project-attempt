@@ -30,3 +30,6 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
             #     if tag_type=='NN':
             #         print(one_tag)
 print(list1)
+
+# TODO: Work on list1:
+
