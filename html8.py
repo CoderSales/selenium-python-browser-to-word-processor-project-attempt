@@ -154,11 +154,90 @@ for i in list8:
 unique_items_list9=set(list9)
 # print(unique_items_list9)
 list10=[]
-for i in unique_items_list9:
+for i in list9:
     if 'bse' not in i:
         list10.append(i)
-print(list10)
-# unique_items_list10=set(list10)
+# print(list10)
+unique_items_list10=set(list10)
 # print(unique_items_list10)
-# reduction=len(unique_items_list9)-len(unique_items_list10)
-# print(reduction)
+# reduction10to9=len(unique_items_list9)-len(unique_items_list10)
+# print(reduction10to9) # 991
+# print(len(unique_items_list10)) # 6255
+list11=[]
+for i in list10:
+    if 'span' not in i:
+        list11.append(i)
+list11
+unique_items_list11=set(list11)
+# print(unique_items_list11)
+reduction10to11=len(unique_items_list10)-len(unique_items_list11)
+# print(reduction10to11) # 825
+# print(len(unique_items_list11)) # 5430
+list12=[]
+for i in list11:
+    if i != any(['types','div.content', 'SeriesKey', 'fixed-element','osano-cm-buttons']):
+        # print(i)
+        list12.append(i)
+list12
+unique_items_list12=set(list12)
+# print(unique_items_list12)
+reduction11to12=len(unique_items_list11)-len(unique_items_list12)
+# print(reduction11to12) # 
+# print(len(unique_items_list12)) # 
+list13=[]
+for i in list12:
+    if i != any(['continue','async']):
+        # print(i)
+        list13.append(i)
+list13
+unique_items_list13=set(list13)
+# print(unique_items_list13)
+reduction12to13=len(unique_items_list12)-len(unique_items_list13)
+# print(reduction12to13) # 0 ?
+# print(len(unique_items_list13)) # 5430
+
+found_list=[]
+for i in list13:
+    match=re.match(r"\'_*([A-Z])", i) # https://towardsdatascience.com/easiest-way-to-remember-regular-expressions-regex-178ba518bebd
+    if (match):
+        if i[0:5]=='\'__CF':
+            print('we got a \'__CF !')
+            # print(i)
+            found_list.append(i)
+# print(found_list)
+list14=[]
+for i in list13:
+    if i != any(found_list):
+        list14.append(i)
+list14
+unique_items_list14=set(list14)
+# print(unique_items_list14)
+reduction13to14=len(unique_items_list13)-len(unique_items_list14)
+# print(reduction13to14) # 0 ?
+# print(len(unique_items_list14)) # 5430
+
+
+
+# if ACDL|
+found_list=[]
+for i in list14:
+    match=re.match(r"ACDL\|([A-Z]*)", i) # https://towardsdatascience.com/easiest-way-to-remember-regular-expressions-regex-178ba518bebd
+    if (match):
+        if i[0:5]=='ACDL|':
+            print('we got a ACDL| !')
+            # print(i)
+            found_list.append(i)
+# print(found_list)
+list15=[]
+for i in list14:
+    if i != any(found_list):
+        list15.append(i)
+list15
+unique_items_list15=set(list15)
+print(unique_items_list15)
+reduction14to15=len(unique_items_list15)-len(unique_items_list15)
+print(reduction14to15) # 0 ?
+print(len(unique_items_list15)) # 5430
+len_list15=len(list15) # 44138
+print(len(list14)) #44138
+print(len_list15) # 44138
