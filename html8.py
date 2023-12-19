@@ -112,7 +112,7 @@ list8=[]
 for i in list7:
     if ( i!= any(['mb-3', 'col-md-3', 'ga', 'Codes', 'divdivdiv', 'div', 'divbodyhtml']) ) :
         list8.append(i)
-print(list8)
+# print(list8)
 
 list9=[]
 # https://docs.python.org/3/howto/regex.html
@@ -140,6 +140,14 @@ for i in list8:
     match=re.match(r"([a-z]+)(\d)(\d)", i) # https://towardsdatascience.com/easiest-way-to-remember-regular-expressions-regex-178ba518bebd
     if (match):
         if i[0:4]=='prop':
-            print('we got a prop!')
-            print(i)
+            # print('we got a prop!')
+            # print(i)
             prop_list.append(i)
+# print(prop_list)
+list9=[]
+for i in list8:
+    if i != any(prop_list):
+        list9.append(i)
+    # for j in prop_list:
+    #     if i == j:
+print(list9)
