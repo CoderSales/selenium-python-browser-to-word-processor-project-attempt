@@ -10,13 +10,12 @@ l =driver.find_elements(By.CLASS_NAME , 'fc-button-label')
 # https://stackoverflow.com/questions/70203815/python-selenium-printing-results-as-selenium-webdriver-remote-webelement-webe
 for i in l:
     if i.text=="Manage options":
-        # print(i) # was issue
         i.click()
 ##################
 l =driver.find_elements(By.CLASS_NAME , 'fc-slider-el')
-print(l[0])
+# print(l[0])
 import re
-for index,i in enumerate(l):#
+for index,i in enumerate(l):
     print(i.value_of_css_property('Use limited data to select advertising')) # issue: # TypeError: WebElement.value_of_css_property() missing 1 required positional argument: 'property_name'
     if index == 1:
         break
@@ -43,7 +42,7 @@ for i in l:
         i.click()
 ###################
 l =driver.find_elements(By.CLASS_NAME , 'fc-slider-el')
-for index,i in enumerate(l):#
+for index,i in enumerate(l):
     if index == 1:
         break
     # class="fc-preference-slider-label"
