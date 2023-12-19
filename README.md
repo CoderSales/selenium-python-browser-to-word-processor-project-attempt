@@ -5,7 +5,25 @@ selenium-python-browser-to-word-processor-project-attempt
 
 ## content
 
-## setup
+## setup for html7.py
+
+install Live Preview Extension in VSCode
+
+Click on Live button at bottom right of IDE
+
+python -m venv .venv2
+
+source .venv2/Scripts/activate
+
+pip install -r requirements.txt
+
+python html7.py
+
+currently has a bug
+
+must ctrl c ctrl c to stop infinite loop
+
+## setup for nomorecookies.py
 
 python -m venv .venv2
 
