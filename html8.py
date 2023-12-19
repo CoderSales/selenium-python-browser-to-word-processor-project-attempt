@@ -16,5 +16,5 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
         for token in tokens:
             # print("line 17: tokens=", token)
             for token_char in token:
-                print("line 19: token",token)
-                list_of_tags=[]
+                if re.search("^''", token): # https://docs.python.org/3/library/re.html
+                    print("line 20: token:", token, "starts with ''")
