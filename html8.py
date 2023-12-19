@@ -18,7 +18,7 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
     for index, i in enumerate(html_file):
 
         inew=i.translate(translation_table)
-        print(inew)
+        # print(inew)
         tokens = nltk.word_tokenize(inew) # https://www.nltk.org/
         if(tokens!=[]):
             for i5 in tokens:
