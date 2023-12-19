@@ -83,11 +83,26 @@ for index, i in enumerate(list3):
         list4.append(i)
 # print(list4)
 
-# Part 5: list4 -> list5:
+# Part 5: 
 list5=[]
 string1 = '():;!|[]?+&-'
 for i in list4:
     # for index2, i2 in enumerate(string1):
     if ( i != string1[0] and i!= string1[1] and i!=string1[2] and i!=string1[3] and i!=string1[4] and i!=string1[5] and i!=string1[6] and i!=string1[7] and i!=string1[8] and i!=string1[9] and i!=string1[10] and i!=string1[11]):
         list5.append(i)
-print(list5)
+# print(list5)
+
+# Part 6: 
+list6=[]
+for i in list5:
+    if ( i != '``' ) :
+        list6.append(i)
+# print(list6)
+
+# Part 7:
+list7=[]
+for i in list6:
+    # if ( i != 'amp' and i!= 'class' and i!= 'osano' and i!= 'id' and i != 'iframe' and i!= 'style' and i != 'background-color' and i != 'white' and i != 'ACDL|Page|Brand' and i!= 'Code' and i!= 'Age' and i!= 'Id' and i!= 'Driver' and i!='Osano' and i!='Type' and i!= 'Promise' and i!='alloy' and i!='Variable|Page|Query_Param' and i!='true' and i!= 'href' and i!= 'text-align' and i!= 'javascript' and i[0:9]!=re.findall(r'ACDL|Page',i) != 'ACDL|Page' and i[0:13]!=re.findall(r'Variable|Page',i) != 'Variable|Page'):
+    if ( i != 'amp' and i!= 'class' and i!= 'osano' and i!= 'id' and i != 'iframe' and i!= 'style' and i != 'background-color' and i != 'white' and i != 'ACDL|Page|Brand' and i!= 'Code' and i!= 'Age' and i!= 'Id' and i!= 'Driver' and i!='Osano' and i!='Type' and i!= 'Promise' and i!='alloy' and i!='Variable|Page|Query_Param' and i!='true' and i!= 'href' and i!= 'text-align' and i!= 'javascript'):
+        list7.append(i)
+print(list7)
