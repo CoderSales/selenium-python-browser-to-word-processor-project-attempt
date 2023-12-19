@@ -1,6 +1,6 @@
 # https://www.tutorialspoint.com/how-to-click-button-selenium-python
 from selenium import webdriver
-#set chromodriver.exe path
+# set chromodriver.exe path
 driver = webdriver.Firefox()
 driver.maximize_window()
 driver.get("https://www.tutorialspoint.com/index.htm")
