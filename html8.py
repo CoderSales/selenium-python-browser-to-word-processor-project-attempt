@@ -50,3 +50,6 @@ for index,i in enumerate(list1):
         inew=i.translate(translation_table3)
     list2.append(inew)
 print(list2)
+
+# Part 3: list2 -> list3:
+
