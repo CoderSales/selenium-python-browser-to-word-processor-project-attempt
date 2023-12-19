@@ -145,3 +145,40 @@ Google Search String for above
 regex python library documentation
 
 https://www.google.com/search?q=regex+python+library+documentation&rlz=1C1YTUH_enIE1084IE1084&oq=regex+python+library+documentation&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhge0gEIODI5N2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+____
+
+Search String
+
+python list each element in a list
+
+```text
+Python's *for* and *in* constructs are extremely useful, and the first use of them we'll see is with lists. The *for* construct -- for var in list -- is an easy way to look at each element in a list (or other collection). Do not add or remove from the list during iteration.
+```
+
+https://www.google.com/search?q=python+list+each+element+in+a+list&rlz=1C1YTUH_enIE1084IE1084&oq=python+list+each+element+in+a+list&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIGCAQQRRhA0gEIOTA0M2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+https://developers.google.com/edu/python/lists#:~:text=Python's%20*for*%20and%20*in,from%20the%20list%20during%20iteration.
+
+____
+
+search
+
+python list each unique element in a list
+
+https://www.google.com/search?q=python+list+each+unique+element+in+a+list&newwindow=1&sca_esv=592323233&rlz=1C1YTUH_enIE1084IE1084&sxsrf=AM9HkKn0yeHWwuMSBVlT-IrCyF0Y6O3B4Q%3A1703025670775&ei=BhyCZcv2Lp7ThbIPha6e6Aw&ved=0ahUKEwjLkZmByZyDAxWeaUEAHQWXB80Q4dUDCBA&uact=5&oq=python+list+each+unique+element+in+a+list&gs_lp=Egxnd3Mtd2l6LXNlcnAiKXB5dGhvbiBsaXN0IGVhY2ggdW5pcXVlIGVsZW1lbnQgaW4gYSBsaXN0MggQABiABBiiBDIIEAAYgAQYogRImx9Q6BRYsRxwAXgBkAEAmAFXoAH8A6oBATe4AQPIAQD4AQHCAgoQABhHGNYEGLADwgIHECMYsAIYJ8ICChAhGKABGMMEGArCAggQIRigARjDBOIDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp
+
+```text
+1. Python Set() to Get Unique Values from a List
+set(input_list_name)
+list(set-name)
+list_inp = [100, 75, 100, 20, 75, 12, 75, 25] set_res = set(list_inp) print("The unique elements of the input list using set():\n") list_res = (list(set_res)) for item in list_res: print(item)
+```
+
+[Get Unique Values From a List in Python](https://www.digitalocean.com/community/tutorials/get-unique-values-from-a-list-in-python)
+
+```python
+set(input_list_name)
+```
+
+____
