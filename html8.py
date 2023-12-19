@@ -70,9 +70,18 @@ for index, i in enumerate(list3):
     i2_0=item
     # print(i2_0)
     # print(i)
-    translation_table4={ord(f"{item}"):None}
-    i2new=item.translate(translation_table4)
+    # translation_table4={ord(f"{item}"):None}
+    # i2new=item.translate(translation_table4)
     # print(i2new)
-    if not (re.search('', item) ):
-        list4.append(item)
+
+#     if not (re.search('', item) ):
+#         list4.append(item)
+# print(list4)
+
+
+# string1 = '.{}'
+# for i2 in string1:
+    # if (i!=('.' or '{' or '}'):
+    if (i!='.' and i!= '{' and i!= '}'):
+        list4.append(i)
 print(list4)
