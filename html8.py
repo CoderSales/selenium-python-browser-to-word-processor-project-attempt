@@ -55,4 +55,23 @@ for index,i in enumerate(list1):
 
 list3=[]
 for index, i in enumerate(list2):
-    print(i)
+    if (i != ','):
+        # print(i)
+        list3.append(i)
+# print(list3)
+
+# Part 4: list3 -> list4:
+list4=[]
+list_arguments=['{','}','``',':',';',',']
+# print(list_arguments[0])
+for index, i in enumerate(list3):
+    for index2, i2 in enumerate(list_arguments):
+        i2_0=i2[0]
+        # print(i2_0)
+
+        translation_table4={ord(f"{i2_0}"):None}
+        i2new=i2_0.translate(translation_table4)
+        # print(i2new)
+        if not (re.search('', i2new) ):
+            list4.append(i2new)
+print(list4)
