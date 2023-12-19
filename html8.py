@@ -135,9 +135,11 @@ for i in list8:
     # m2=re.search("")
         # print(i) 
     # if(  )
+prop_list=[]
 for i in list8:
-    match=re.match(r"([a-z]+)(\d)(\d)", i)
+    match=re.match(r"([a-z]+)(\d)(\d)", i) # https://towardsdatascience.com/easiest-way-to-remember-regular-expressions-regex-178ba518bebd
     if (match):
         if i[0:4]=='prop':
             print('we got a prop!')
             print(i)
+            prop_list.append(i)
