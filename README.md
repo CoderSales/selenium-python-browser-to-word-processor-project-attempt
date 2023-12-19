@@ -17,7 +17,7 @@ python nomorecookies.py
 
 wait 3 minutes
 
-runs auotomated browser declines all cookies
+runs automated browser declines all cookies
 
 ## references
 
