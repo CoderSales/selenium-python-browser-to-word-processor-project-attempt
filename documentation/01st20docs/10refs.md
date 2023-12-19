@@ -29,3 +29,23 @@ m.group(0)
 [re](https://docs.python.org/3/library/re.html)
 
 ____
+
+```python
+# import webdriver 
+from selenium import webdriver 
+
+# create webdriver object 
+driver = webdriver.Firefox() 
+
+# get geeksforgeeks.org 
+driver.get("https://www.geeksforgeeks.org/") 
+
+# get element 
+element = driver.find_element_by_id("gsc-i-id2") 
+
+
+# print width 
+print(element.value_of_css_property('width')) 
+```
+
+[How to use value_of_css_property element method in Selenium Python ? | geeksforgeeks.prg](https://www.geeksforgeeks.org/value_of_css_property-element-method-selenium-python/)
