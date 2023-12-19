@@ -16,12 +16,24 @@ translation_table={ord("<"): None, ord(">"): None, ord("/"): None, re.sub(r'[A-Z
 # loops:
 with open("index.html", "r", encoding='ISO-8859-1') as html_file: 
     for index, i in enumerate(html_file):
-        for index4, i4 in enumerate(i):
-            i4new=i4.translate(translation_table)
-            # print(i4new)
-            tokens = nltk.word_tokenize(i) # https://www.nltk.org/
-            tagged = nltk.pos_tag(tokens) # new
-            for index3, x in enumerate(tagged):
-                [one_tag, tag_type]=x
-                if tag_type=='NN':
-                    print(one_tag)
+
+        inew=i.translate(translation_table)
+        print(inew)
+        tokens = nltk.word_tokenize(inew) # https://www.nltk.org/
+        if(tokens!=[]):
+            print(tokens)
+            input("coninue?")
+        # tagged = nltk.pos_tag(tokens) # new
+        # for index3, x in enumerate(tagged):
+        #     [one_tag, tag_type]=x
+        #     if tag_type=='NN':
+        #         print(one_tag)
+
+
+
+
+
+        # for index4, i4 in enumerate(inew):
+        #     print(i4)
+
+
