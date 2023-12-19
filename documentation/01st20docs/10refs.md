@@ -17,3 +17,15 @@
 ____
 
 [selenium.webdriver.remote.webelement](https://www.selenium.dev/selenium/docs/api/py/webdriver_remote/selenium.webdriver.remote.webelement.html)
+
+____
+
+```python
+import re
+m = re.search('(?<=abc)def', 'abcdef')
+m.group(0)
+```
+
+[re](https://docs.python.org/3/library/re.html)
+
+____
