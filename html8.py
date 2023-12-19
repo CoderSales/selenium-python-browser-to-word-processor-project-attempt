@@ -109,6 +109,12 @@ for i in list6:
 # print(list7)
 
 list8=[]
+for i in list7:
+    if ( i!= any(['mb-3', 'col-md-3', 'ga', 'Codes', 'divdivdiv', 'div', 'divbodyhtml']) ) :
+        list8.append(i)
+print(list8)
+
+list9=[]
 # https://docs.python.org/3/howto/regex.html
 # First, run the Python interpreter, import the re module, and compile a RE:
 p = re.compile('[0-9]')
@@ -116,7 +122,22 @@ p
 re.compile('[0-9]')
 # ('prop'+p+p)
 # Now, you can try matching various strings against the RE [a-z]+.
-for i in list7:
-    if ( i!= any(['mb-3', 'col-md-3', 'ga', 'Codes', 'divdivdiv', 'div', 'divbodyhtml']) ) :
-        list8.append(i)
-print(list8)
+for i in list8:
+    m=re.match(r"(\d)(\d)",i)
+    # print(m)
+    if m != None:
+        groups=m.groups()
+        # print(groups)
+        # for j in m:
+        #     print(j)
+    # if ( (\S+) (\d+) (\d+) ):
+    # email = i
+    # m2=re.search("")
+        # print(i) 
+    # if(  )
+for i in list8:
+    match=re.match(r"([a-z]+)(\d)(\d)", i)
+    if (match):
+        if i[0:4]=='prop':
+            print('we got a prop!')
+            print(i)

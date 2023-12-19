@@ -78,3 +78,38 @@ Now, you can try matching various strings against the RE [a-z]+.
 ```
 
 https://docs.python.org/3/howto/regex.html
+
+____
+
+```text
+Now, let’s try it on a string that it should match, such as tempo. In this case, match() will return a match object, so you should store the result in a variable for later use.
+```
+
+```python
+m = p.match('tempo')
+m
+<re.Match object; span=(0, 5), match='tempo'>
+```
+
+```text
+Now you can query the match object for information about the matching string. Match object instances also have several methods and attributes; the most important ones are:
+```
+
+```text
+Method/Attribute | Purpose
+
+group() | Return the string matched by the RE
+
+start() | Return the starting position of the match
+
+end() | Return the ending position of the match
+
+span() | Return a tuple containing the (start, end) positions of the match
+```
+____
+
+Match objects always have a boolean value of True.
+
+https://docs.python.org/3/library/re.html#match-objects
+
+____
