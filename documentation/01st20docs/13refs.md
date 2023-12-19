@@ -31,3 +31,50 @@ any
 https://www.programiz.com/python-programming/methods/built-in/any
 
 ____
+
+regex implementations
+
+Python has two major implementations, the built in re and the regex library.
+
+https://www.google.com/search?q=different+impolementations+of+regex+in+python&rlz=1C1YTUH_enIE1084IE1084&oq=different+impolementations+of+regex+in+python&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDU4NDlqMWo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+https://en.wikipedia.org/wiki/Comparison_of_regular_expression_engines#:~:text=Python%20has%20two%20major%20implementations,re%20and%20the%20regex%20library.&text=Ruby%201.8%2C%20Ruby%201.9%2C%20and,Onigmo%2C%20a%20fork%20from%20Oniguruma.&text=The%20primary%20regex%20crate%20does%20not%20allow%20look%2Daround%20expressions.
+
+____
+
+Google Search String:
+
+regex library python
+
+https://www.google.com/search?q=regex+library+python&rlz=1C1YTUH_enIE1084IE1084&oq=regex+library+python&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIGCAcQRRg80gEINjE1OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+```bash
+pip install regex
+```
+
+https://pypi.org/project/regex/
+
+____
+
+Google Search String
+
+regex python library documentation
+
+https://www.google.com/search?q=regex+python+library+documentation&rlz=1C1YTUH_enIE1084IE1084&oq=regex+python+library+documentation&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhge0gEIODI5N2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+```text
+First, run the Python interpreter, import the re module, and compile a RE:
+```
+
+```python
+import re
+p = re.compile('[a-z]+')
+p
+re.compile('[a-z]+')
+```
+
+```text
+Now, you can try matching various strings against the RE [a-z]+.
+```
+
+https://docs.python.org/3/howto/regex.html

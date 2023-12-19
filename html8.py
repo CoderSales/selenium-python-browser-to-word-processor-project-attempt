@@ -6,6 +6,7 @@ import pandas
 import re
 import time
 import nltk
+import regex
 
 # Part 1: compile list1
 
@@ -105,4 +106,17 @@ for i in list6:
     # if ( i != 'amp' and i!= 'class' and i!= 'osano' and i!= 'id' and i != 'iframe' and i!= 'style' and i != 'background-color' and i != 'white' and i != 'ACDL|Page|Brand' and i!= 'Code' and i!= 'Age' and i!= 'Id' and i!= 'Driver' and i!='Osano' and i!='Type' and i!= 'Promise' and i!='alloy' and i!='Variable|Page|Query_Param' and i!='true' and i!= 'href' and i!= 'text-align' and i!= 'javascript' and i[0:9]!=re.findall(r'ACDL|Page',i) != 'ACDL|Page' and i[0:13]!=re.findall(r'Variable|Page',i) != 'Variable|Page'):
     if ( i != 'amp' and i!= 'class' and i!= 'osano' and i!= 'id' and i != 'iframe' and i!= 'style' and i != 'background-color' and i != 'white' and i != 'ACDL|Page|Brand' and i!= 'Code' and i!= 'Age' and i!= 'Id' and i!= 'Driver' and i!='Osano' and i!='Type' and i!= 'Promise' and i!='alloy' and i!='Variable|Page|Query_Param' and i!='true' and i!= 'href' and i!= 'text-align' and i!= 'javascript'):
         list7.append(i)
-print(list7)
+# print(list7)
+
+list8=[]
+# https://docs.python.org/3/howto/regex.html
+# First, run the Python interpreter, import the re module, and compile a RE:
+p = re.compile('[0-9]')
+p
+re.compile('[0-9]')
+# ('prop'+p+p)
+# Now, you can try matching various strings against the RE [a-z]+.
+for i in list7:
+    if ( i!= any(['mb-3', 'col-md-3', 'ga', 'Codes', 'divdivdiv', 'div', 'divbodyhtml']) ) :
+        list8.append(i)
+print(list8)
