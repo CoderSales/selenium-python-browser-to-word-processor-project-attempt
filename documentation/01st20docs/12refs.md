@@ -29,3 +29,7 @@ ____
 [string format](https://www.geeksforgeeks.org/python-string-format-method/)
 
 ____
+
+[string formating using f strings and %](https://www.geeksforgeeks.org/string-formatting-in-python-using/?ref=lbp)
+
+____
