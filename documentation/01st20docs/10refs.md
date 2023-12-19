@@ -89,3 +89,5 @@ value_of_css_property(property_name)
 ____
 
 [Python RegEx](https://www.w3schools.com/python/python_regex.asp)
+
+[Python RegEx | search](https://www.w3schools.com/python/python_regex.asp#search)
