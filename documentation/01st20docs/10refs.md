@@ -49,3 +49,41 @@ print(element.value_of_css_property('width'))
 ```
 
 [How to use value_of_css_property element method in Selenium Python ? | geeksforgeeks.prg](https://www.geeksforgeeks.org/value_of_css_property-element-method-selenium-python/)
+
+____
+
+aria_role
+
+click() -> None
+
+find_element(by='id', value=None) -> selenium.webdriver.remote.webelement.WebElement
+
+find_elements(by='id', value=None) -> List[selenium.webdriver.remote.webelement.WebElement]
+
+get_attribute(name) -> str | None[str, None]
+
+get_dom_attribute(name) -> str
+
+get_property(name) -> str | bool | selenium.webdriver.remote.webelement.WebElement | dict[str, bool, selenium.webdriver.remote.webelement.WebElement, dict]
+
+id
+    
+    Internal ID used by selenium.
+
+is_selected() → bool
+    
+    Returns whether the element is selected.
+
+    Can be used to check if a checkbox or radio button is selected.
+
+submit()
+
+tag_name
+
+text
+
+value_of_css_property(property_name)
+
+[selenium.webdriver.remote.webelement | selenium | documentation](https://www.selenium.dev/selenium/docs/api/py/webdriver_remote/selenium.webdriver.remote.webelement.html)
+
+____
