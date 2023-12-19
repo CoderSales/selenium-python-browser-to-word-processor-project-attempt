@@ -22,6 +22,7 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
             for i5 in tokens:
                 if( re.search("osana",i5) ):
                     translation_table2={re.sub(r'[A-Za-z]'",",tokens):None}
+                    i5new=i5.translation(translation_table2)
                 list1.append(i5)
                 # input("coninue?")
             # tagged = nltk.pos_tag(tokens) # new
@@ -31,10 +32,16 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
             #         print(one_tag)
 print(list1)
 
-# TODO: (2): Add translation_table3
-
-# translation_table3={ord(): None. re.sub(r'[A-Za-z]',",","_______"): None}
 
 # TODO: (1): Work on list1:
-for i in list1:
+list2=[] # unpack list1 and make list2
+for index,i in enumerate(list1):
     print(i)
+
+
+    # TODO: (2): Add translation_table3
+    if ( re.search("^''", i) ):
+        translation_table3={re.sub(r'[A-Za-z]',",",list1[index]): None}
+        inew=i.translate(translation_table3)
+    list2.append(inew)
+print(list2)
