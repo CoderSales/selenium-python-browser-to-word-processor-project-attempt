@@ -12,7 +12,7 @@ headers = {'User-Agent': long_string }
 html_response = requests.get(url=url, headers = headers)
 # remove multiple elements
 translation_table={ord("<"): None, ord(">"): None, ord("/"): None, re.sub(r'[A-Za-z]',",", "osano"): None, ord("="): None, ord(">"):None, re.sub(r'[A-Za-z]',",", "comma-separator"): None, re.sub(r'[A-Za-z]',",", "a2"): None, re.sub(r'[A-Za-z]',",", "_Ctrl"): None, re.sub(r'[A-Za-z]',",", "a1"): None, re.sub(r'[A-Za-z]',",", "a4"): None, re.sub(r'[A-Za-z]',",", "a5"): None, ord("<"): None, re.sub(r'[A-Za-z]',",", "mathstat"): None, re.sub(r'[A-Za-z]',",", "bse"): None, re.sub(r'[A-Za-z]',",", "div"): None, ord("%"): None, re.sub(r'[A-Za-z]',",", "amp"): None}
-
+list1=[]
 # loops:
 with open("index.html", "r", encoding='ISO-8859-1') as html_file: 
     for index, i in enumerate(html_file):
