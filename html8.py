@@ -63,15 +63,16 @@ for index, i in enumerate(list2):
 # Part 4: list3 -> list4:
 list4=[]
 list_arguments=['{','}','``',':',';',',']
+item='{'
 # print(list_arguments[0])
 for index, i in enumerate(list3):
-    for index2, i2 in enumerate(list_arguments):
-        i2_0=i2[0]
-        # print(i2_0)
-
-        translation_table4={ord(f"{i2_0}"):None}
-        i2new=i2_0.translate(translation_table4)
-        # print(i2new)
-        if not (re.search('', i2new) ):
-            list4.append(i2new)
+    # for index2, i2 in enumerate(list_arguments):
+    i2_0=item
+    # print(i2_0)
+    # print(i)
+    translation_table4={ord(f"{item}"):None}
+    i2new=item.translate(translation_table4)
+    # print(i2new)
+    if not (re.search('', item) ):
+        list4.append(item)
 print(list4)
