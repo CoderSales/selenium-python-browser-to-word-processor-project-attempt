@@ -6,6 +6,9 @@ import pandas
 import re
 import time
 import nltk
+
+# Part 1: compile list1
+
 # time3=time.monotonic() # https://docs.python.org/3/library/time.html
 url = "http://127.0.0.1:5500/"
 headers = {'User-Agent': long_string } 
@@ -30,13 +33,14 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
             #     [one_tag, tag_type]=x
             #     if tag_type=='NN':
             #         print(one_tag)
-print(list1)
+# print(list1)
 
+# Part 2: list1 -> list2:
 
 # TODO: (1): Work on list1:
 list2=[] # unpack list1 and make list2
 for index,i in enumerate(list1):
-    print(i)
+    # print(i)
 
 
     # TODO: (2): Add translation_table3
