@@ -141,3 +141,4 @@ for i in list8:
         if i[0:4]=='prop':
             print('we got a prop!')
             print(i)
+g
