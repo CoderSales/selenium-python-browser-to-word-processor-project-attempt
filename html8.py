@@ -41,4 +41,4 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
         # for index4, i4 in enumerate(inew):
         #     print(i4)
 
-
+print(list1)
