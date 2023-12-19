@@ -25,3 +25,7 @@ print(remove_commas(my_string))
 [translate()](https://hostman.com/tutorials/how-to-delete-a-character-from-a-string-in-python/)
 
 ____
+
+[string format](https://www.geeksforgeeks.org/python-string-format-method/)
+
+____
