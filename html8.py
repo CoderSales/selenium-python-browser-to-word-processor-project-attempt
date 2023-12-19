@@ -16,16 +16,12 @@ list1=[]
 # loops:
 with open("index.html", "r", encoding='ISO-8859-1') as html_file: 
     for index, i in enumerate(html_file):
-
         inew=i.translate(translation_table)
-        # print(inew)
         tokens = nltk.word_tokenize(inew) # https://www.nltk.org/
         if(tokens!=[]):
             for i5 in tokens:
                 if( re.search("osana",i5) ):
                     translation_table2={re.sub(r'[A-Za-z]'",",tokens):None}
-                    # print(tokens)
-                # print(i5)
                 list1.append(i5)
                 # input("coninue?")
             # tagged = nltk.pos_tag(tokens) # new
@@ -33,12 +29,4 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
             #     [one_tag, tag_type]=x
             #     if tag_type=='NN':
             #         print(one_tag)
-
-
-
-
-
-        # for index4, i4 in enumerate(inew):
-        #     print(i4)
-
 print(list1)
