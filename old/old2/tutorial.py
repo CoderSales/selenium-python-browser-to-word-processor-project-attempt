@@ -16,11 +16,17 @@ driver = webdriver.Firefox()
 
 driver.get('https://bing.com')
 
-element = driver.find_element(By.ID, 'sb_form_q')
-element.send_keys('WebDriver')
-element.submit()
+# element = driver.find_element(By.ID, 'sb_form_q')
+# element.send_keys('WebDriver')
+# element.submit()
 
-time.sleep(1)
+element = driver.find_element(By.ID, 'W0wltc')
+
+
+
+'<button id="W0wltc" class="tHlp8d" data-ved="0ahUKEwiAi-G_05mDAxWbUEEAHWFtDq8Q4cIICHk"><div class="QS5gu sy4vM" role="none">Reject all</div></button>'
+
+time.sleep(300)
 driver.quit()
 ####
 
@@ -42,6 +48,15 @@ print(driver.title)
 search = driver.find_elements_by_name("s")
 search.send_keys("test")
 search.send_keys(Keys.RETURN)
+
+
+# https://stackoverflow.com/questions/21350605/python-selenium-click-on-button
+
+# driver.find_element_by_css_selector('.button .c_button .s_button').click()
+# clicker = driver.find('.button .c_button .s_button').click()
+
+
+
 
 html_stuff = driver.page_source
 
