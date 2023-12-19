@@ -14,4 +14,5 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
     for index, i in enumerate(html_file):
         tokens = nltk.word_tokenize(i) # https://www.nltk.org/
         for index2, token in enumerate(tokens):
-            print(token)
+            if re.search('[a-zA-Z]',token):
+                print(token)
