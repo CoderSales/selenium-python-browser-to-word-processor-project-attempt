@@ -25,3 +25,9 @@ https://www.w3schools.com/python/python_regex.asp
 https://www.freecodecamp.org/news/how-to-substring-a-string-in-python/
 
 ____
+
+any
+
+https://www.programiz.com/python-programming/methods/built-in/any
+
+____
