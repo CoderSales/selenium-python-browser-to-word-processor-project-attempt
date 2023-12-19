@@ -16,8 +16,9 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
         for index2, token in enumerate(tokens):
             # print("line 17: tokens=", token)
             for index3, token_char in enumerate(token):
-                if re.search("^''", token): # https://docs.python.org/3/library/re.html
-                    # print("line 20: token:", token, "starts with ''")
-                    for index4, character in enumerate(token):
-                        if character!="'":
-                            print(character)
+                # if re.search("^''", token): # https://docs.python.org/3/library/re.html
+                # print("line 20: token:", token, "starts with ''")
+                # for index4, character in enumerate(token):
+                if token_char!="'":
+                    print(token_char)
+                    print(token)
