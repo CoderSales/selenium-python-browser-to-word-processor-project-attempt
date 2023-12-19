@@ -12,7 +12,7 @@ headers = {'User-Agent': long_string }
 html_response = requests.get(url=url, headers = headers)
 # remove multiple elements
 translation_table={ord("<"): None, ord(">"): None, ord("/"): None, re.sub(r'[A-Za-z]',",", "osano"): None, ord("="): None, ord(">"):None, re.sub(r'[A-Za-z]',",", "comma-separator"): None, re.sub(r'[A-Za-z]',",", "a2"): None, re.sub(r'[A-Za-z]',",", "_Ctrl"): None, re.sub(r'[A-Za-z]',",", "a1"): None, re.sub(r'[A-Za-z]',",", "a4"): None, re.sub(r'[A-Za-z]',",", "a5"): None, ord("<"): None, re.sub(r'[A-Za-z]',",", "mathstat"): None, re.sub(r'[A-Za-z]',",", "bse"): None, re.sub(r'[A-Za-z]',",", "div"): None, ord("%"): None, re.sub(r'[A-Za-z]',",", "amp"): None}
-# re.sub(r'\d', '', my_string)
+
 # loops:
 with open("index.html", "r", encoding='ISO-8859-1') as html_file: 
     for index, i in enumerate(html_file):
@@ -25,8 +25,8 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
                 if( re.search("osana",i5) ):
                     translation_table2={re.sub(r'[A-Za-z]'",",tokens):None}
                     # print(tokens)
-                print(i5)
-                
+                # print(i5)
+                list1.append(i5)
                 input("coninue?")
             # tagged = nltk.pos_tag(tokens) # new
             # for index3, x in enumerate(tagged):
