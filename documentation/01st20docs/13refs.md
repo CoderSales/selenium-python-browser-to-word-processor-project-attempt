@@ -114,6 +114,34 @@ https://docs.python.org/3/library/re.html#match-objects
 
 ____
 
-regex taht fixed issue:
+Google Search String
+
+how to use regex python
+
+https://www.google.com/search?q=how+to+use+regex+python&rlz=1C1YTUH_enIE1084IE1084&oq=how+to+use+regex+python&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCDUwMTNqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#vhid=6JLknBDWvJChSM&vssid=l
+
+regex that fixed issue:
 
 [towardsdatascience](https://towardsdatascience.com/easiest-way-to-remember-regular-expressions-regex-178ba518bebd)
+
+____
+
+other regex
+
+docs
+
+https://docs.python.org/3/library/re.html#match-objects
+
+gentler
+
+Regular Expression HOWTO
+
+https://docs.python.org/3/howto/regex.html#regex-howto
+
+____
+
+Google Search String for above
+
+regex python library documentation
+
+https://www.google.com/search?q=regex+python+library+documentation&rlz=1C1YTUH_enIE1084IE1084&oq=regex+python+library+documentation&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhge0gEIODI5N2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8
