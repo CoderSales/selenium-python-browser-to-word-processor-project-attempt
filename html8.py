@@ -49,7 +49,10 @@ for index,i in enumerate(list1):
         translation_table3={re.sub(r'[A-Za-z]',",",list1[index]): None}
         inew=i.translate(translation_table3)
     list2.append(inew)
-print(list2)
+# print(list2)
 
 # Part 3: list2 -> list3:
 
+list3=[]
+for index, i in enumerate(list2):
+    print(i)
