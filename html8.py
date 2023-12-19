@@ -150,4 +150,8 @@ for i in list8:
         list9.append(i)
     # for j in prop_list:
     #     if i == j:
-print(list9)
+# print(list9)
+
+unique_items_list9=set(list9)
+
+print(unique_items_list9)
