@@ -33,6 +33,8 @@ print(list1)
 
 # TODO: (2): Add translation_table3
 
+# translation_table3={ord(): None. re.sub(r'[A-Za-z]',",","_______"): None}
+
 # TODO: (1): Work on list1:
 for i in list1:
     print(i)
