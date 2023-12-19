@@ -31,8 +31,8 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
             #         print(one_tag)
 print(list1)
 
-# TODO: Work on list1:
+# TODO: (2): Add translation_table3
 
-
+# TODO: (1): Work on list1:
 for i in list1:
     print(i)
