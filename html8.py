@@ -79,9 +79,15 @@ for index, i in enumerate(list3):
 # print(list4)
 
 
-# string1 = '.{}'
-# for i2 in string1:
-    # if (i!=('.' or '{' or '}'):
     if (i!='.' and i!= '{' and i!= '}'):
         list4.append(i)
-print(list4)
+# print(list4)
+
+# Part 5: list4 -> list5:
+list5=[]
+string1 = '():;!|[]?+&-'
+for i in list4:
+    # for index2, i2 in enumerate(string1):
+    if ( i != string1[0] and i!= string1[1] and i!=string1[2] and i!=string1[3] and i!=string1[4] and i!=string1[5] and i!=string1[6] and i!=string1[7] and i!=string1[8] and i!=string1[9] and i!=string1[10] and i!=string1[11]):
+        list5.append(i)
+print(list5)
