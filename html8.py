@@ -14,6 +14,7 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
     for i in html_file:
         tokens = nltk.word_tokenize(i) # https://www.nltk.org/
         for token in tokens:
-            print("line 17: tokens=", token)
+            # print("line 17: tokens=", token)
             for token_char in token:
+                print("line 19: token",token)
                 list_of_tags=[]
