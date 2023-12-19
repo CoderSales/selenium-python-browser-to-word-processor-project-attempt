@@ -87,3 +87,5 @@ value_of_css_property(property_name)
 [selenium.webdriver.remote.webelement | selenium | documentation](https://www.selenium.dev/selenium/docs/api/py/webdriver_remote/selenium.webdriver.remote.webelement.html)
 
 ____
+
+[Python RegEx](https://www.w3schools.com/python/python_regex.asp)
