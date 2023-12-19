@@ -6,7 +6,7 @@ import pandas
 import re
 import time
 import nltk
-time3=time.monotonic() # https://docs.python.org/3/library/time.html
+# time3=time.monotonic() # https://docs.python.org/3/library/time.html
 url = "http://127.0.0.1:5500/"
 headers = {'User-Agent': long_string } 
 html_response = requests.get(url=url, headers = headers) 
@@ -15,7 +15,7 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
         tokens = nltk.word_tokenize(i) # https://www.nltk.org/
         for index2, token in enumerate(tokens):
             # print("line 17: tokens=", token)
-            for index3, token_char in enumerate(token):
-                if token_char!="'":
-                    print(token_char)
-                    print(token)
+            # for index3, token_char in enumerate(token):
+            #     if token_char!="'":
+                    # print(token_char)
+            print(token)
