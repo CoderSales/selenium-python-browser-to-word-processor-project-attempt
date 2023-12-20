@@ -38,7 +38,7 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
 # list1
 # string=''
 # for index,i in enumerate(list1):
-html_as_string="".join(list1)
+html_as_string=''.join(list1)
 
 from html.parser import HTMLParser
 
