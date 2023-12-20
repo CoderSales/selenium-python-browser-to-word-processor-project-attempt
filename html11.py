@@ -36,18 +36,20 @@ with open("index.html", "r", encoding='ISO-8859-1') as html_file:
             #         print(one_tag)
 # print(list1)
 
+list1a=list1[100:201]
+
 # Part 2: list1 -> list2:
 
 # TODO: (1): Work on list1:
 list2=[] # unpack list1 and make list2
-for index,i in enumerate(list1):
+for index,i in enumerate(list1a):
     # print(i)
 
 
     # TODO: (2): Add translation_table3
     if not ( re.search("^''", i) ):
         # print(i)
-        translation_table3={re.sub(r'[A-Za-z]',",",list1[index]): None}
+        translation_table3={re.sub(r'[A-Za-z]',",",list1a[index]): None}
         inew=i.translate(translation_table3)
     list2.append(inew)
 # print(list2)
