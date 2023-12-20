@@ -335,6 +335,12 @@ dfs[0]
 
 ____
 
+above from:
+
+https://scrapingrobot.com/blog/pandas-read-html/
+
+____
+
 matplotlib install
 
 https://www.google.com/search?q=matplotlib+install&rlz=1C1YTUH_enIE1084IE1084&oq=matplotlib+install&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQRRhB0gEIMzI5MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
@@ -346,3 +352,4 @@ https://matplotlib.org/stable/users/installing/index.html
 
 
 ____
+
