@@ -372,3 +372,15 @@ https://hostman.com/tutorials/how-to-delete-a-character-from-a-string-in-python/
 https://www.nltk.org/
 
 ____
+
+error
+
+search
+
+SyntaxError: invalid character '’' (U+2019)
+
+https://www.google.com/search?q=SyntaxError%3A+invalid+character+%27%E2%80%99%27+(U%2B2019)&rlz=1C1YTUH_enIE1084IE1084&oq=SyntaxError%3A+invalid+character+%27%E2%80%99%27+(U%2B2019)&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg60gEHNzQ3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+The problem is the code uses curly quote characters (“” and ''), but Python only supports straight quote characters ("" and ''). It’s likely the code was edited with a program that converts straight quotes to curly ones automatically, such as Microsoft Word.
+
+https://adamj.eu/tech/2022/01/14/how-to-fix-python-syntaxerror-invalid-character/
