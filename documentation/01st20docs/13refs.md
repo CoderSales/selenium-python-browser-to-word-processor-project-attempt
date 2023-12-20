@@ -235,3 +235,17 @@ StackOverflow
 https://stackoverflow.com/questions/30315880/python-unpack-lists-and-join-into-a-string
 
 ____
+
+You can use + to join two lists, and join to join them.
+
+```python
+
+brands = ["google", "apple", "intel", "qualcomm"]
+otherBrands = ["nike", "reebok", "puma"]
+
+print ":".join(brands + otherBrands)
+```
+
+https://stackoverflow.com/questions/30315880/python-unpack-lists-and-join-into-a-string
+
+____
