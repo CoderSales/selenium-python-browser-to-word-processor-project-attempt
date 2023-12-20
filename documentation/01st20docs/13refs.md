@@ -182,3 +182,56 @@ set(input_list_name)
 ```
 
 ____
+
+python html parser
+
+https://www.google.com/search?q=python+html+parser&rlz=1C1YTUH_enIE1084IE1084&oq=python+html+parser&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDI0NTVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+```python
+from html.parser import HTMLParser
+
+class MyHTMLParser(HTMLParser):
+    def handle_starttag(self, tag, attrs):
+        print("Encountered a start tag:", tag)
+
+    def handle_endtag(self, tag):
+        print("Encountered an end tag :", tag)
+
+    def handle_data(self, data):
+        print("Encountered some data  :", data)
+
+parser = MyHTMLParser()
+parser.feed('<html><head><title>Test</title></head>'
+            '<body><h1>Parse me!</h1></body></html>')
+```
+
+The output will then be:
+
+Encountered a start tag: html
+Encountered a start tag: head
+Encountered a start tag: title
+Encountered some data  : Test
+Encountered an end tag : title
+Encountered an end tag : head
+Encountered a start tag: body
+Encountered a start tag: h1
+Encountered some data  : Parse me!
+Encountered an end tag : h1
+Encountered an end tag : body
+Encountered an end tag : html
+
+https://docs.python.org/3/library/html.parser.html
+
+____
+
+unpack list to string
+
+https://www.google.com/search?q=unpack+list+to+string&rlz=1C1YTUH_enIE1084IE1084&oq=unpack+list+to+string&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIMCAEQIxgnGIAEGIoFMggIAhAAGBYYHjIICAMQABgWGB4yDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigXSAQg1MTcyajBqOagCALACAA&sourceid=chrome&ie=UTF-8
+
+Python - Unpack lists and join into a string
+
+StackOverflow
+
+https://stackoverflow.com/questions/30315880/python-unpack-lists-and-join-into-a-string
+
+____
