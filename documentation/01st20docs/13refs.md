@@ -353,3 +353,8 @@ https://matplotlib.org/stable/users/installing/index.html
 
 ____
 
+pandas.DataFrame.to_html
+
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_html.html
+
+____
