@@ -234,10 +234,30 @@ for i in list14:
         list15.append(i)
 list15
 unique_items_list15=set(list15)
-print(unique_items_list15)
+# print(unique_items_list15)
 reduction14to15=len(unique_items_list15)-len(unique_items_list15)
-print(reduction14to15) # 0 ?
-print(len(unique_items_list15)) # 5430
+# print(reduction14to15) # 0 ?
+# print(len(unique_items_list15)) # 5430
 len_list15=len(list15) # 44138
-print(len(list14)) #44138
-print(len_list15) # 44138
+# print(len(list14)) #44138 # 37219
+# print(len_list15) # 44138 # 27219
+
+# Section: edit html to string:
+# print('line246: type(list15)=',type(list15))
+html_as_string=''.join(list15)
+
+from html.parser import HTMLParser
+
+class MyHTMLParser(HTMLParser):
+    def handle_starttag(self, tag, attrs):
+        print("Encountered a start tag:", tag)
+        print('\n')
+
+    def handle_endtag(self, tag):
+        print("Encountered an end tag :", tag)
+        print('\n')
+    def handle_data(self, data):
+        print("Encountered some data  :", data)
+        print('\n')
+parser = MyHTMLParser()
+parser.feed(html_as_string)
