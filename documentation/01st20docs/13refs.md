@@ -264,3 +264,85 @@ res = "".join(a)
 https://stackoverflow.com/questions/13174468/how-do-you-join-all-items-in-a-list
 
 ____
+
+tried code, but ultimately unused:
+
+```python
+import html5lib
+with open("mydocument.html", "rb") as f:
+    document = html5lib.parse(f)
+```
+
+https://github.com/html5lib/html5lib-python
+
+____
+
+https://www.google.com/search?q=pandas+html+table&rlz=1C1YTUH_enIE1084IE1084&oq=pandas+html&gs_lcrp=EgZjaHJvbWUqDAgAEAAYFBiHAhiABDIMCAAQABgUGIcCGIAEMgYIARBFGDkyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBggGEEUYQTIGCAcQRRg80gEIMzIxMmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+https://pandas.pydata.org/docs/reference/api/pandas.read_html.html
+
+____
+
+pandas:
+
+pip install lxml
+
+import pandas as pd
+
+import numpy as np
+
+import matplotlib.pyplot as plt
+
+from unicodedata import normalize
+
+#read all HTML tables from specific URL
+
+tabs = pd.read_html(‘https://int.soccerway.com/teams/rankings/fifa/’)
+
+#display total number of tables read
+
+len(tabs)
+
+#read HTML tables from specific URL with the word “Scotland” in them
+
+tabs = pd.read_html(‘https://int.soccerway.com/teams/rankings/fifa/’,
+
+      match=’Scotland’)
+
+#display total number of tables read
+
+len(tabs)
+
+pip3 install pandas
+
+import pandas as pd 
+
+df_list = pd.read_html(html) 
+
+print(len(df_list))
+
+print(df_list[0])
+
+dfs = pd.read_html(URL)
+
+file_path = ‘‘table.html’
+
+with open(file_path, ‘r’) as f:
+
+ dfs = pd.read_html(f.read())
+
+dfs[0]
+
+____
+
+matplotlib install
+
+https://www.google.com/search?q=matplotlib+install&rlz=1C1YTUH_enIE1084IE1084&oq=matplotlib+install&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQRRhB0gEIMzI5MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
+
+python -m pip install -U pip
+python -m pip install -U matplotlib
+
+https://matplotlib.org/stable/users/installing/index.html
+
+
+____
