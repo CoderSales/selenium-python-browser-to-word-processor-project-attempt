@@ -358,3 +358,17 @@ pandas.DataFrame.to_html
 https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_html.html
 
 ____
+
+earlier reference:
+
+how to remove characters from a var in python
+
+To remove a character from a string in Python, you can use the translate() method. The method takes a dictionary or translation table as input and replaces characters in the string based on the provided arguments. To remove a character, you can specify an empty string as the value for that character.
+
+https://www.google.com/search?q=how+to+remove+characters+from+a+var+in+python&rlz=1C1YTUH_enIE1084IE1084&oq=how+to+remove+characters+from+a+var+in+python&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgHGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyDQgEEAAYhgMYgAQYigUyDQgFEAAYhgMYgAQYigUyBggGEEUYQNIBCTE0NDk4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+https://hostman.com/tutorials/how-to-delete-a-character-from-a-string-in-python/
+
+https://www.nltk.org/
+
+____
