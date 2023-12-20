@@ -249,3 +249,18 @@ print ":".join(brands + otherBrands)
 https://stackoverflow.com/questions/30315880/python-unpack-lists-and-join-into-a-string
 
 ____
+
+search:
+
+join all items in a list
+
+https://www.google.com/search?q=join+all+items+in+a+list&rlz=1C1YTUH_enIE1084IE1084&oq=join+all+items+in+a+list&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIMCAEQABgUGIcCGIAEMgwIAhAAGBQYhwIYgAQyCAgDEAAYFhgeMggIBBAAGBYYHjIICAUQABgWGB4yCAgGEAAYFhgeMggIBxAAGBYYHjIICAgQABgWGB4yDQgJEAAYhgMYgAQYigXSAQg2NTU5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8
+
+```python
+a = ['a', 'b', 'c']
+res = "".join(a)
+```
+
+https://stackoverflow.com/questions/13174468/how-do-you-join-all-items-in-a-list
+
+____
