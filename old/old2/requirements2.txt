@@ -25,6 +25,6 @@ soupsieve==2.5
 trio==0.23.2
 trio-websocket==0.11.1
 tzdata==2023.3
-urllib3==2.1.0
+urllib3==2.6.0
 webencodings==0.5.1
 wsproto==1.2.0
