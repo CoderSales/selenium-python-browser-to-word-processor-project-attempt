@@ -8,7 +8,7 @@ h11==0.16.0
 html-to-json==2.0.0
 html5lib==1.1
 idna==3.6
-lxml==4.9.3
+lxml==6.1.0
 numpy==1.26.2
 outcome==1.3.0.post0
 pandas==2.1.4
