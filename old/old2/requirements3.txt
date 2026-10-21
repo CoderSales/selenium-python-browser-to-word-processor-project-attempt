@@ -1,6 +1,6 @@
 attrs==23.1.0
 beautifulsoup4==4.12.2
-certifi==2024.7.4
+certifi==2026.10.19
 cffi==1.16.0
 h11==0.16.0
 idna==3.15
